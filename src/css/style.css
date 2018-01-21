@@ -54,6 +54,8 @@ Last modified:
   color: white;
 }
 .content {
+  padding: 2rem;
+  background-color: white;
   display: block;
 }
 .content--style {
