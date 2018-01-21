@@ -40,21 +40,21 @@ sans-serif;
 // === === Functions === === //
 
 // === === Mixings === === //
-.header{
+.header {
   width: @width;
   height: @height;
   background-color:@orangeDark;
 
-  &__logo{
+  &__logo {
     display:block;
-    .header__logo--link{
+    .header__logo--link {
       text-decoration:none;
       color:@white;
       margin:@margin;
     }
   }
 
-  .header__img{
+  .header__img {
     .header__img--size {
       display: block;
       width:7rem!important;
@@ -74,7 +74,6 @@ sans-serif;
        .text--color;
     }
   }
-  
 }
 .fa {
   display: block;
@@ -120,12 +119,11 @@ sans-serif;
     border-color:@orangeDark;
   }
 }
-
 .footer {
+  margin-bottom: @margin;
   .fa {
     color:@greyDark;
   }
-  margin-bottom: @margin;
   .content__par {
     margin: @margin auto;
     color:@greyDark;
@@ -133,7 +131,7 @@ sans-serif;
   .footer__socialMedia {
     .footer__socialMedia--link {
       display: inline-block;
-      font-size: (@fontSize + 1rem);
+      font-size: (@fontSize + 0.5rem);
       margin:@margin (@margin - 0.5rem);
     }
 
@@ -156,7 +154,13 @@ sans-serif;
 @media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
+  .footer__socialMedia--link {
+    display: inline-block;
+    font-size: @fontSize;
+    margin:@margin (@margin - 0.9rem)!important;
+  }
+ }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {  }

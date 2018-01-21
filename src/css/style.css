@@ -95,7 +95,7 @@ Last modified:
 }
 .footer .footer__socialMedia .footer__socialMedia--link {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 1rem 0.5rem;
 }
 .footer .footer__link {
@@ -107,4 +107,11 @@ Last modified:
 .body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #DFE0E1;
+}
+@media (min-width: 768px) {
+  .footer__socialMedia--link {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem 0.1rem !important;
+  }
 }
