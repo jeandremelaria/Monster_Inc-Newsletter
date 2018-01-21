@@ -25,11 +25,30 @@ Last modified:
 @orangeDark:#FE371F; 
 @orangeLight:#EE7D78;
 
+@width:21.9rem;
+@height:20rem;
+// Font
+@fontFamily: 'Roboto',
+sans-serif;
+@fontWeight: 400;
+@fontSize: 1rem;
+
 // === === Functions === === //
 
 // === === Mixings === === //
-
+.header{
+  width: @width;
+  height: @height;
+  background-color:@orangeDark;
+}
 // === === General === === //
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: @fontFamily;
+  background-color:@greyLight;
+}
 
 // === === Media queries === === //
 // Small devices (landscape phones, 576px and up)

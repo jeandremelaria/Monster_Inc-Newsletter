@@ -9,3 +9,15 @@ Project type: Newsletter
 File created date: 21.01.2018
 Last modified:
 */
+.header {
+  width: 21.9rem;
+  height: 20rem;
+  background-color: #FE371F;
+}
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #DFE0E1;
+}
