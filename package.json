@@ -1,27 +1,32 @@
 {
-  "name": "starterpack-2018",
-  "version": "1.0.0",
-  "description": "starter pack for gulp projects ",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "starter",
-    "pack",
-    "gulp",
-    "projects",
-    "Jeandre",
-    "Melaria"
-  ],
-  "author": "Jeandre Melaria",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.23.5",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-htmlmin": "^4.0.0"
-  }
+    "name": "starterpack-2018",
+    "version": "1.0.0",
+    "description": "Monster Inc - Newsletter",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap 4",
+        "Monster Inc",
+        "Newsletter",
+        "www.jeandremelaria.nl",
+        "Jeandre",
+        "Melaria"
+    ],
+    "author": "Jeandre Melaria",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.23.5",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.1.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-htmlmin": "^4.0.0"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0"
+    }
 }
