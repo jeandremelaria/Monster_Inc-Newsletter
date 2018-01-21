@@ -90,7 +90,18 @@ sans-serif;
 .text--color {
   color:@white;
 }
-
+.content {
+  &--style {
+    text-align: center;
+  }
+  display: block;
+  .content__par {
+    margin: @margin auto;
+  }
+  .content__link {
+    margin: @margin auto;
+  }
+}
 // === === General === === //
 * {
   box-sizing: border-box;

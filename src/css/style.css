@@ -53,6 +53,18 @@ Last modified:
 .text--color {
   color: white;
 }
+.content {
+  display: block;
+}
+.content--style {
+  text-align: center;
+}
+.content .content__par {
+  margin: 1rem auto;
+}
+.content .content__link {
+  margin: 1rem auto;
+}
 * {
   box-sizing: border-box;
 }
