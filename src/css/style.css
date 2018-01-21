@@ -86,9 +86,17 @@ Last modified:
 .footer {
   margin-bottom: 1rem;
 }
+.footer .fa {
+  color: #878587;
+}
 .footer .content__par {
   margin: 1rem auto;
   color: #878587;
+}
+.footer .footer__socialMedia .footer__socialMedia--link {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
 }
 .footer .footer__link {
   color: #878587;

@@ -122,10 +122,21 @@ sans-serif;
 }
 
 .footer {
+  .fa {
+    color:@greyDark;
+  }
   margin-bottom: @margin;
   .content__par {
     margin: @margin auto;
     color:@greyDark;
+  }
+  .footer__socialMedia {
+    .footer__socialMedia--link {
+      display: inline-block;
+      font-size: (@fontSize + 1rem);
+      margin:@margin (@margin - 0.5rem);
+    }
+
   }
   .footer__link {
     color:@greyDark;
