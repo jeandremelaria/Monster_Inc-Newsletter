@@ -74,6 +74,8 @@ Last modified:
   font-weight: 550;
 }
 .content .btn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   height: 4rem;
   font-size: 1.5rem;
 }
