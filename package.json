@@ -27,6 +27,7 @@
         "gulp-htmlmin": "^4.0.0"
     },
     "dependencies": {
-        "bootstrap": "^4.0.0"
+        "bootstrap": "^4.0.0",
+        "font-awesome": "^4.7.0"
     }
 }
