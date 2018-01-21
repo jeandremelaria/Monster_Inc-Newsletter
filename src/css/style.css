@@ -31,7 +31,8 @@ Last modified:
   text-transform: uppercase;
   text-align: center;
   margin-top: -1.5rem;
-  color: white;
+  color: #EE7D78;
+  font-weight: 700;
 }
 .header .header__img .header__img--subTitle {
   text-align: center;
