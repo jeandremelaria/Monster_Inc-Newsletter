@@ -30,7 +30,7 @@ Last modified:
 .header .header__img .header__img--title {
   text-transform: uppercase;
   text-align: center;
-  margin: 1rem;
+  margin-top: -1.5rem;
   color: white;
 }
 .header .header__img .header__img--subTitle {
@@ -46,7 +46,7 @@ Last modified:
 .fa-check {
   display: block;
   position: relative;
-  top: -4rem;
+  top: -2rem;
   left: 2rem;
 }
 .text--color {
