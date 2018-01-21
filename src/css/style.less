@@ -65,13 +65,12 @@ sans-serif;
       text-transform: uppercase;
       text-align: center;
       margin-top:-1.5rem;
-      // margin:(@margin - 0.5rem);
       color:@orangeLight;
       font-weight: 700;
     }
     .header__img--subTitle {
        text-align: center;
-       font-weight: 900;
+       font-weight:(@fontWeight + 500);
        .text--color;
     }
   }
@@ -100,11 +99,26 @@ sans-serif;
   display: block;
   .content__par {
     margin: @margin auto;
+    color:@greyDark;
   }
   .content__link {
     margin: @margin auto;
+    color:@orangeDark;
+  }
+  .content__title {
+    margin-top:@margin;
+    font-weight: (@fontWeight + 150);
+  }
+  .btn{
+    height: 4rem;
+    font-size: (@fontSize + 0.5rem);
+  }
+  .btn-secondary {
+    background-color:@orangeDark;
+    border-color:@orangeDark;
   }
 }
+
 // === === General === === //
 * {
   box-sizing: border-box;

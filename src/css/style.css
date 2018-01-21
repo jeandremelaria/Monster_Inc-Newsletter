@@ -63,9 +63,23 @@ Last modified:
 }
 .content .content__par {
   margin: 1rem auto;
+  color: #878587;
 }
 .content .content__link {
   margin: 1rem auto;
+  color: #FE371F;
+}
+.content .content__title {
+  margin-top: 1rem;
+  font-weight: 550;
+}
+.content .btn {
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.content .btn-secondary {
+  background-color: #FE371F;
+  border-color: #FE371F;
 }
 * {
   box-sizing: border-box;
