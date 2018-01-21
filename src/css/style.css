@@ -83,6 +83,16 @@ Last modified:
   background-color: #FE371F;
   border-color: #FE371F;
 }
+.footer {
+  margin-bottom: 1rem;
+}
+.footer .content__par {
+  margin: 1rem auto;
+  color: #878587;
+}
+.footer .footer__link {
+  color: #878587;
+}
 * {
   box-sizing: border-box;
 }
