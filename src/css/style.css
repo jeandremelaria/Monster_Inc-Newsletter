@@ -41,13 +41,13 @@ Last modified:
 .fa {
   display: block;
   color: green;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .fa-check {
   display: block;
   position: relative;
-  left: 18rem;
-  top: 7rem;
+  top: -4rem;
+  left: 2rem;
 }
 .text--color {
   color: white;
