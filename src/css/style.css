@@ -14,10 +14,18 @@ Last modified:
   height: 20rem;
   background-color: #FE371F;
 }
+.header__logo {
+  display: block;
+}
+.header__logo .header__logo--link {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
 * {
   box-sizing: border-box;
 }
 .body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   background-color: #DFE0E1;
 }
