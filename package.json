@@ -19,12 +19,14 @@
     "author": "Jeandre Melaria",
     "license": "ISC",
     "devDependencies": {
+        "autoprefixer": "^7.2.5",
         "browser-sync": "^2.23.5",
         "gulp": "^3.9.1",
-        "gulp-autoprefixer": "^4.1.0",
         "gulp-concat": "^2.6.1",
         "gulp-cssnano": "^2.1.2",
-        "gulp-htmlmin": "^4.0.0"
+        "gulp-htmlmin": "^4.0.0",
+        "gulp-postcss": "^7.0.1",
+        "gulp-sourcemaps": "^1.12.1"
     },
     "dependencies": {
         "bootstrap": "^4.0.0",

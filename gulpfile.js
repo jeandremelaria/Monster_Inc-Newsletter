@@ -1,6 +1,10 @@
 //---- CONSTRANTS ----//
 const gulp = require('gulp');
-const autoprefixer = require('gulp-autoprefixer');
+
+var postcss = require('gulp-postcss');
+var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer = require('autoprefixer');
+
 const cssnano = require('gulp-cssnano');
 const concat = require('gulp-concat');
 const browserSync = require('browser-sync');
@@ -12,16 +16,14 @@ gulp.task('message', function() {
 });
 
 //---- GULP PREFIXER AND CSS NANO ----//
-//   gulp.task('prefixerAndCssNano',function(){
-//     gulp.src('src/css/*.css')
-//       .pipe(autoprefixer({
-//           browser: ['last 2 versions'],
-//           cascade: false
-//       }))
-//       .pipe(cssnano())
-//       .pipe(concat('main.css'))
-//       .pipe(gulp.dest('build/css'))
-// });
+gulp.task('prefixerAndCssNano', function() {
+    return gulp.src('src/css/*.css')
+        .pipe(postcss([autoprefixer()]))
+        .pipe(cssnano())
+        .pipe(concat('main.css'))
+        .pipe(gulp.dest('build/css'));
+});
+
 
 //---- COPY ALL HTML FILES TO BUILD FOLDER AND MINIFY ----//
 gulp.task('copyHtml', function() {
