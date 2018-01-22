@@ -65,8 +65,8 @@ build/Release
 # directories
 documentation/
 
-
 # Dependency directories
+node_modules/
 jspm_packages/
 
 # Typescript v1 declaration files
