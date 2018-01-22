@@ -1,12 +1,11 @@
 //---- CONSTRANTS ----//
 const gulp = require('gulp');
-
 var postcss = require('gulp-postcss');
 var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('autoprefixer');
-
 const cssnano = require('gulp-cssnano');
 const concat = require('gulp-concat');
+const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync');
 const htmlmin = require('gulp-htmlmin');
 
@@ -32,8 +31,16 @@ gulp.task('copyHtml', function() {
         .pipe(gulp.dest('build'));
 });
 
+//---- MINIFY IMAGES ----//
+gulp.task('img', () =>
+    gulp.src('src/img/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('build/img'))
+);
+
+
 //---- RUN MULTIPLE TASKS AT ONCE IN ARRAY ----//
-gulp.task('default', ['message', 'prefixerAndCssNano', 'copyHtml']);
+gulp.task('default', ['message', 'prefixerAndCssNano', 'img', 'copyHtml']);
 
 //---- GULP WATCH ----//
 gulp.task('watch', ['browserSync'], function() {
