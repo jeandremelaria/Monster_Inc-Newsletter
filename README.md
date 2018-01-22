@@ -10,9 +10,6 @@
 	- Edit files in src folder.
 	- Deploy or upload files in the build folder.
 
-## Demo 
-https://jeandremelaria.github.io/Summer-Email_template/build/
-
 ## Contributors
 Jeandre Melaria – j.melaria@hotmail.com
 
